@@ -1,0 +1,56 @@
+.general_holder_ss{
+  margin-top: 45px;
+  display: flex;
+  justify-content: center;
+gap: 30px;
+align-items: center;
+
+
+padding-bottom: 24px ;
+}
+
+
+.text_holder_ss{
+  width: 50%;
+}
+
+.photo_all_sss{
+  border-top-left-radius: 172px;
+}
+
+.photo_part_all{
+  width: 40%;
+}
+.readme00{
+  color: blue;
+  font-size: 15px;
+  cursor: pointer;
+}
+
+.titi_e44{
+  font-size: 24px;
+}
+
+.photo_part_all img {
+  width: 100%;
+  height: 510px;
+}
+
+
+@media screen and (max-width: 821px) {
+
+
+  .general_holder_ss{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+.text_holder_ss{
+  width: 95%;
+}
+.photo_part_all{
+  width: 94%;
+}
+
+}

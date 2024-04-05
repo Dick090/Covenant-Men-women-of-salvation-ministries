@@ -1,0 +1,43 @@
+
+.loading_holder{
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color:rgba(19, 82, 193, 0.84);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.ico_loading{
+  animation: logo-spin infinite 1s linear;
+  
+}
+@keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.button_appleHel_dhd{
+  position: fixed;
+  top: 42px;
+  right: 25px;
+  z-index: 999;
+}
+
+@media screen and (max-width: 821px) {
+  .button_appleHel_dhd{
+    position: fixed;
+    top: 12px;
+    right: 15px;
+    z-index: 999;
+  }
+  
+
+}

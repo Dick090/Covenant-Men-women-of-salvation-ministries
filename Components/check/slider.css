@@ -1,0 +1,11 @@
+/* Slider.css */
+
+.slider-container {
+  width: 80%;
+  margin: auto;
+}
+
+.slider-container img {
+  width: 100%;
+  height: auto;
+}

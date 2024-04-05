@@ -1,0 +1,296 @@
+
+
+.general_form_holer{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color:rgb(137, 137, 243);
+  height: fit-content;
+  padding-top: 15px;
+  margin-bottom: -44px;
+  width: 100%;
+
+}
+.up_part_holer_fo{
+
+  width: 70%;
+  box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
+  border-top-right-radius: 123px;
+border-top-left-radius:123px ;
+border-top-style: solid;
+border-top-color: transparent;
+}
+.up_img_ghtn{
+  width: 100%;
+  height: 289px;
+  border-top-right-radius: 123px;
+border-top-left-radius:123px ;
+border-top-style: solid;
+border-top-color: transparent;
+
+}
+.up_img_ghtn img{
+width: 100%;
+display: block;
+height: 100%;
+border-top-right-radius: 123px;
+border-top-left-radius:123px ;
+border-top-style: solid;
+border-top-color: transparent;
+
+}
+
+.text_side_uPH{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 94%;
+  color: white;
+
+}
+.text_side_uPH h4{
+text-align: center;
+
+}
+.withbtn{
+  width: 234px;
+}
+.text_side_uPH p{
+width: 98%;
+font-size: 18px;
+text-align: center;
+font-weight: 400;
+}
+.finish_prayer{
+  color: rgb(255, 0, 106);
+}
+.secound_part{
+  display: none;
+}
+
+.main_form_now{
+  width: 70%;
+  background-color: white;
+  padding: 23px;
+  height: fit-content;
+
+}
+.form_control{
+  padding-top: 14px;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  justify-content: center;
+  gap: 30px;
+  margin-bottom: 34px;
+}
+
+.input_holdeer{
+gap: 20px;
+  display: flex;
+  justify-content: center;
+}
+.input_one_Care{
+  width: 35%;
+
+}
+.input_one_Care input{
+width: 100%;
+}
+.input_two_care{
+  width: 35%;
+}
+.input_two_care input{
+width: 100%;
+}
+.street_control{
+width: 100%;
+display: flex;
+justify-content: center;
+flex-direction: column ;
+align-items: center;
+}
+.street_control p{
+  text-align: left;
+  width: 76%;
+}
+
+.address_controler{
+  display: flex;
+  justify-content: center;
+  gap: 14px;
+}
+.countryselect{
+  width: 20%;
+}.selectstet{
+  width: 20%;
+}
+.street_control input{
+width: 73%;
+}
+.inputs_form{
+  padding: 10px 15px 10px 20px;
+  border-radius: 23px;
+  border-width: 2px;
+  border-style: solid;
+  border-color: rgb(137, 137, 243);
+  box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
+  transition: 1s;
+}
+.error{
+  text-align: left;
+  padding-left: 2%;
+  color: red;
+}
+
+
+.inputs_form:focus,.inputs_form:active{
+  padding: 11px 16px 11px 21px;
+  border-radius: 23px;
+  border-width: 2px;
+  border-style: solid;
+  border-color:rgb(38, 38, 224);
+  outline-style: red;
+  outline-style: none;
+}
+
+
+.countryselect{
+  width: 164px;
+  justify-content: center;
+  display: flex;
+  align-items: center;
+  padding-left: 5%;
+}
+
+
+.nonte_add{
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+
+}
+.nonte_add h5{
+font-size: 18px;
+padding: 0;
+margin: 0;
+width: 60%;
+text-align: center;
+
+}
+
+.nonte_add p{
+  width: 60%;
+  text-align: center;
+}
+.span_note {
+  color: red;
+}
+
+.general_err{
+  text-align: center;
+}
+.bankselect{
+  width: 100%;
+  align-items: center;
+  text-align: left;
+}
+
+.comment_section{
+  display: flex;
+  justify-content: center;
+}
+.comment_se{
+  width: 70%;
+text-align: left;
+height: 95px;
+}
+.buttton_submit{
+  background-color: rgb(38, 38, 224);
+color: white;
+font-size: 18px;
+font-weight: 600;
+}
+
+
+.buttton_submit:hover{
+  padding: 11px 16px 11px 21px;
+  border-radius: 23px;
+  border-width: 2px;
+  border-style: solid;
+  border-color:rgb(84, 84, 228);
+  outline-style: red;
+  outline-style: none;
+}
+.butto_go{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.input_holder{
+  width: 100%;
+align-items: center;
+justify-content: center;
+flex-direction: column;
+display: flex;
+
+}
+.input_holder input{
+width: 74%;
+
+}
+.input_holder p{
+text-align: left;
+width: 70%;
+
+}
+
+@media screen and (max-width: 821px) {
+  .form_control{
+    gap: 10px;
+
+
+  }
+  .up_part_holer_fo{
+    width: 95%;
+  }
+
+  .main_form_now{
+    width: 95%;
+
+  }
+
+.input_holdeer{
+display: flex;
+flex-direction: column;
+    gap: 9px;
+
+}
+.input_one_Care,.input_two_care{
+  width: 100%;
+}
+ 
+
+.input_holder{
+
+
+}
+.input_holder input,.countryselect,.selectstet ,.selectstet select,.city_control,.city_control input,.nonte_add h5,.nonte_add p,.comment_se{
+width: 100%;
+
+}
+
+.comment_se{
+  margin-bottom: 23px;
+}
+
+.address_controler{
+  flex-direction: column;
+}
+
+}

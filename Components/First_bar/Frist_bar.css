@@ -1,0 +1,71 @@
+.first_holder{
+display: flex;
+gap: 5px;
+}
+
+.video_holder_fh{
+  width: 70%;
+  height: 417px;
+  background-color: blue;
+}
+.video_fd{
+  width: 100%;
+  height: 100%;
+  object-fit:fill;
+  
+}
+
+.picture_holder_fh{
+  width: 45%;
+  height: 417px;
+  background-color: rgb(118, 122, 139);
+}
+.up_ph_fh,.down_holder_fh{
+  width: 100%;
+  height: 50%;
+  opacity: 0.6;
+transition: 2s;
+
+
+}
+.up_ph_fh img,.down_holder_fh img {
+  width: 100%;
+  height: 100%;
+}
+
+.up_ph_fh:hover,.down_holder_fh:hover{
+opacity: 1;
+cursor: pointer;
+
+}
+.small_sceam{
+  display: none;
+}
+
+
+@media screen and (max-width: 821px) {
+.picture_holder_fh,.down_holder_fh {
+  display: none;
+}
+.small_sceam{
+  display: block;
+}
+
+
+.video_holder_fh{
+  width: 100%;
+}
+
+.first_holder{
+  display: block;
+}
+  
+.img_holder_sms{
+width: 100%;
+
+}
+ .img_silder_sm {
+  width: 100%;
+}
+
+}

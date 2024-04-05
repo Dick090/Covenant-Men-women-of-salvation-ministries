@@ -1,0 +1,116 @@
+
+.general_holder_thechurch{
+}
+
+.first_holder_thd{
+  background-color:rgb(71, 71, 224);
+  display: flex;
+  justify-content: center;
+}
+.right_div_thdc{
+  text-transform: capitalize;
+  width: 30%; 
+   display: flex;
+flex-direction: column;
+justify-content: space-between;
+align-items: center;
+
+}
+
+.right_div_thdc h3{
+padding-top: 23px;
+color: white;
+}
+.right_div_thdc p{
+text-align: center;
+width: 89%;
+padding-bottom: 23px;
+color: white;
+
+}
+.left_div_thdc{
+height: 545px;
+width: 70%;
+}
+.left_div_thdc img{
+  opacity: 0.6;
+  width: 100%;
+  height: 100%;
+}
+
+.text_part_thch{
+  margin-top: 24px;
+display: flex;
+flex-direction: column;
+padding-left: 6%;
+padding-right: 6%;
+gap: 24px;
+}
+.bible_qo_chch{
+  color:rgb(71, 71, 224);
+}
+.bible{
+  color: #367AF6;
+  font-size: 18px;
+  font-weight: 600;
+}
+.text_holder_note_chch h4{
+  font-size: 18px;
+  padding-bottom: 7px;
+  text-transform: uppercase;
+
+}
+
+
+@media screen and (max-width: 821px) {
+
+  .right_control{
+    background-color:rgb(71, 71, 224);
+padding-top: 2%;
+  }
+  .first_holder_thd{
+    background-color: #367AF6;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2%;
+    margin-left: 1%;
+    margin-right: 1%;
+    border-top-width: 2px;
+    border-top-style: solid;
+    border-top-left-radius: 42px;
+    border-top-right-radius: 42px;
+  }
+.right_div_thdc{
+  width: 100%;
+justify-content: end;
+align-items: start;
+padding-left: 34px;
+}
+.right_div_thdc p{
+  text-align: left;
+  width: 89%;
+  padding-bottom: 3px;
+  color: white;
+  
+  }
+  .right_div_thdc h3{
+    padding-top: 23px;
+    color: white;
+    font-size: 20px;
+    }
+    .text_holder_note_chch h4{
+      font-size: 18px;
+      padding-bottom: 7px;
+
+    }
+  .left_div_thdc{
+    height:445px;
+    width: 100%;
+    }
+    
+  
+
+
+}

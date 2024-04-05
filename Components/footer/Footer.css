@@ -1,0 +1,50 @@
+
+
+.footer_holder{
+  margin-top: 45px;
+  height: 130px;
+  background-color: rgb(217, 222, 231);
+  padding: 24px;
+  position: relative;
+  bottom: 0;
+  right: 0;
+  left: 0;
+
+}
+
+
+.icons_fd{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 98%;
+}
+
+.ico_hol_fon{
+  background-color: rgb(179, 184, 222);
+  border-radius: 100%;
+  width: 40px;
+  padding: 13px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+
+}
+.ico_hol_fon:hover{
+
+  background-color: rgb(48, 65, 192);
+transition: 2s;
+}
+
+
+.ico_this:hover{
+  color: white;
+}
+
+.text_footer{
+  text-transform: uppercase;
+  padding-top: 20px;
+  text-align: center;
+}
