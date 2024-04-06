@@ -9,7 +9,6 @@ const on = true;
 function Home() {
   return (
     <div>
-      <Images/>
       <Loading on={on} />
       <Frist_bar />
       <Secound />

@@ -15,7 +15,7 @@ import ScrollComponent from './Components/check/Slider'
 function Layout() {
   return (
     <div>
-      <Header />
+      {/* <Header /> */}
      <Outlet />
       <Footer />
     </div>
