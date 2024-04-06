@@ -2,7 +2,7 @@ import React, { useState } from 'react'
 import './Form.css'
 import { json } from 'react-router-dom';
 import { Date } from './Data';
-import Loading from '../../src/Loading';
+import Loading from '../../Loading';
 
 
 function Form(props) {
@@ -235,10 +235,10 @@ const Submit_Give = () =>{
         <div className="up_part_holer_fo">
           <div className="up_img_ghtn">
             {props.appleFrom === true ?
-              <img src="./public/images/church.jpeg" alt="" /> : ''
+              <img src="./assets/images/church.jpeg" alt="" /> : ''
 
             }
-            {props.GiveFrom == true ? <img src="./public/images/Givefrom.jpg" alt="" /> : ''
+            {props.GiveFrom == true ? <img src="./assets/images/Givefrom.jpg" alt="" /> : ''
             }
             {console.log(props)}
           </div>

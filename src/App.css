@@ -23,7 +23,9 @@
     transform: rotate(360deg);
   }
 }
-
+.image_check{
+  margin-top: 3456px;
+}
 .button_appleHel_dhd{
   position: fixed;
   top: 42px;

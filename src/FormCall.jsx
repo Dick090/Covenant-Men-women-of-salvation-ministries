@@ -1,6 +1,6 @@
 import React, { useState } from 'react'
-import Form from '../Components/Form/Form'
-import Loading from './Loading';
+import { Form } from 'react-router-dom'
+import Loading from './Loading'
 
 function FormCall() {
   const [appleFromr, setappleFromr] = useState(true)
