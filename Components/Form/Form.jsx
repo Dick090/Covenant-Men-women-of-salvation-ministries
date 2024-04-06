@@ -2,7 +2,7 @@ import React, { useState } from 'react'
 import './Form.css'
 import { json } from 'react-router-dom';
 import { Date } from './Data';
-import Loading from '../../Loading';
+import Loading from '../../src/Loading';
 
 
 function Form(props) {

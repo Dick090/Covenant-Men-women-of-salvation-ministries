@@ -11,7 +11,7 @@ function Frist_bar() {
         <div className="video_holder_fh">
           {/* <video  autoPlay controls src=""  ></video> */}
           <iframe className='video_fd'
-  src='https://youtu.be/xGizoRn3lIY'
+  src='https://youtu.be/CbJmqdv-jlU'
   frameborder='0'
   allow='autoplay; '
  

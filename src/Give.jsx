@@ -1,6 +1,6 @@
 import React, { useState } from 'react'
 import Loading from './Loading'
-import Form from './Components/Form/Form'
+import Form from '../Components/Form/Form'
 
 function Give() {
 

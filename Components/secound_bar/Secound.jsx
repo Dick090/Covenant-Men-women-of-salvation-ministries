@@ -13,7 +13,7 @@ function Secound() {
         </div>
 
         <div className="photo_part_all">
-          <img className='photo_all_sss' src="../public/images/8a03484678612576c22b009b6db5d6e4.jpg" alt="" />
+          <img className='photo_all_sss' src="..//images/8a03484678612576c22b009b6db5d6e4.jpg" alt="" />
         </div>
         </div>
 
