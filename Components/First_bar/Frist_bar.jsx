@@ -20,7 +20,7 @@ function Frist_bar() {
         </div>
         <div className="picture_holder_fh">
           <div className="up_ph_fh shadow-sm bg-body-tertiary">
-            <img src="https://smhos.org/assets.smhos.org//photos/home/omd.jpg" alt="" />
+            <img src="https://smhos.org/assets.smhos.org//photos/home/omd.jp" alt="" />
 
           </div>
           <div className="down_holder_fh  shadow-sm bg-body-tertiary">
@@ -35,7 +35,7 @@ function Frist_bar() {
         <div id="carouselExampleInterval" className="carousel slide" data-bs-ride="carousel">
           <div className="carousel-inner">
             <div className="carousel-item active img_holder_sms" data-bs-interval="10000">
-              <img  className='img_silder_sm' src="https://smhos.org/assets.smhos.org//photos/home/omd.jpg" alt="" />
+              <img  className='img_silder_sm' src="https://smhos.org/assets.smhos.org//photos/home/omd.jp" alt="" />
             </div>
             <div className="carousel-item img_holder_sms" data-bs-interval="2000" />
             <img className='img_silder_sm'  src="https://smhos.org/assets.smhos.org//photos/home/12noon.jpg" alt="" />
